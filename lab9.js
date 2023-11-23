@@ -83,7 +83,7 @@ btnHold.addEventListener('click', function () {
         scores[activePlayer] += currentScore;
     
         document.querySelector(`#score--${activePlayer}`).textContent = scores[activePlayer];
-        if (scores[activePlayer] >= 10) {
+        if (scores[activePlayer] >= 100) {
             playing = false;
             diceImg.classList.add('hidden');
             // document.querySelector(`#name--${activePlayer}`).textContent = '🎉correct to winer💕🌹';
